@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 
 
 conexao = pymysql.connect( #conectando ao banco de dados
-    host= 'localhost',
+    host= '3306',
     user= 'root',
     passwd= '',
     database= 'python'
